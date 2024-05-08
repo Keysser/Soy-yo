@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    background-image: url('https://i.pinimg.com/736x/2f/0d/8f/2f0d8f044bd4188bfcfa10990f3c5e7b.jpg');
+    background-size: 300px 400px; /* Dimensões desejadas para a imagem de fundo */
+    background-position: center; /* Centraliza a imagem */
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #03d1f5;
+    color: #79009e;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+#profile-image {
+    max-width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#main-content{ 
+    padding: 150px;
+    position: relative;
+    color: rgb(0, 255, 0);
+    font-size: 25px
+}
+/* Adiciona bordas pretas às letras do texto */
+#main-content h2,
+#main-content p {
+    -webkit-text-stroke: 2px black;
+    text-stroke: 2px black;
+    font-size: calc(1em + 4px);
+}
+#gif {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    max-width: 2000px;
+    border: 5px solid black;
+    border-color: 5px solid blue;
+}
